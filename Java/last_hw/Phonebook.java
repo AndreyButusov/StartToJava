@@ -16,7 +16,7 @@ public class Phonebook {
     }
 
     public ArrayList<Integer> find(String name) {
-// Введите свое решение ниже
+
         ArrayList<Integer> result = new ArrayList<>();
         if (Phonebook.containsKey(name)) {
             return Phonebook.get(name);
@@ -25,7 +25,7 @@ public class Phonebook {
     }
 
     public static HashMap<String, ArrayList<Integer>> getPhoneBook() {
-// Введите свое решение ниже
+
         return Phonebook;
     }
 
